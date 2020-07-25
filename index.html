@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Project Fundamentals - Basic Calculator</title>
 </head>
 <body>
@@ -11,29 +12,37 @@
             <input type="text" name="screen" id="screen">
         </div>
         <div class="buttons">
-            <button> C </button>
-            <button> [+/-] </button>
-            <button> % </button>
-            <button> / </button>
-            <br>
-            <button> 7 </button>
-            <button> 8 </button>
-            <button> 9 </button>
-            <button> X </button>
-            <br>
-            <button> 4 </button>
-            <button> 5 </button>
-            <button> 6 </button>
-            <button> - </button>
-            <br>
-            <button> 1 </button>
-            <button> 2 </button>
-            <button> 3 </button>
-            <button> + </button>
-            <br>
-            <button> 0 </button>
-            <button> . </button>
-            <button> = </button>
+            <table>
+                <tr>
+                    <th><button>C</button></th>
+                    <th><button>CE</button></th>
+                    <th><button>%</button></th>
+                    <th><button>/</button></th>
+                </tr>  
+                <tr>
+                    <th><button>7</button></th>
+                    <th><button>8</button></th>
+                    <th><button>9</button></th>
+                    <th><button>x</button></th>
+                </tr>
+                <tr>
+                    <th><button>4</button></th>
+                    <th><button>5</button></th>
+                    <th><button>6</button></th>
+                    <th><button>-</button></th>
+                </tr>
+                <tr>
+                    <th><button>1</button></th>
+                    <th><button>2</button></th>
+                    <th><button>3</button></th>
+                    <th><button>+</button></th>
+                </tr>
+                <tr>
+                    <th><button>0</button></th>
+                    <th><button>.</button></th>
+                    <th colspan="2"><button>=</button></th>
+                </tr>
+            </table>
         </div>
     </div>
 </body>
