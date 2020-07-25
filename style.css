@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EF2D4F;
+}
+
+.calculator {
+    margin: 25px auto;
+    padding: 25px 0px 12px;
+    text-align: center;
+    width: 380px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.input > input[type=text]{
+    width: 320px;
+    height: 80px;
+    background-color: white;
+    color: #E84765;
+    border: none;
+    font-weight: bolder;
+    font-size: 45px;
+    padding: 0px 30px;
+}
+
+input[type=text]:focus,
+input[type=text]:active {
+	border:none;  
+	outline: 0;
+}
+
+#formula {
+    height: 30px;
+    width: 320px;
+    margin-top: 20px;
+    padding: 0px 30px;
+    color: #000000;
+    font-size: 18px;
+}
+
+table {
+    margin: auto;
+    padding: 5px;
+}
+
+table > tr {
+    margin: 0 100px !important;
+}
+
+button {
+    border: none;
+    background-color: #E7E7E7;
+    padding: 27px 20px;
+    width: 76px;
+    border-radius: 50%;
+    color: black;
+    font-size: 18px;
+}
+
+button:focus,
+button:active {
+	border:none;  
+	outline: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#eq {
+    width: 150px;
+    border-radius: 30px !important;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.pink {
+    background-color: #EF2D4F;
+    color: white;
+}
