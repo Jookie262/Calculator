@@ -10,42 +10,45 @@
     <div class="calculator">
         <img src="https://images.squarespace-cdn.com/content/v1/5654cf16e4b00b463710ff91/1448509700695-K742MSNI6DLI2EY5JF08/ke17ZwdGBToddI8pDm48kB2JJdSYG6qtFuh5yOgSivBZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpw0EQiLagPECDCjHyhXWG6-myvgGXeIWUf4NL6h1C1LKA1Zgs3q42RTRGNGvbZJ9fs/image-asset.png" alt="3 dots" width="30">
         <div class="input">
-            <input type="text" name="formula" id="formula" dir="rtl" disabled>
-            <input type="text" name="answer" id="ans" dir="rtl" disabled>
+            <input type="text" name="formula" id="formula" onfocus="this.value = this.value;" disabled>
+            <input type="text" name="answer" id="ans" value="0" disabled>
         </div>
         <div class="buttons">
             <table>
                 <tr>
-                    <th><button class="black">C</button></th>
-                    <th><button class="black">CE</button></th>
-                    <th><button class="black">%</button></th>
-                    <th><button class="pink">/</button></th>
+                    <th><button class="black" onclick="remOne()">C</button></th>
+                    <th><button class="black" onclick="remAll()">CE</button></th>
+                    <th><button class="black" onclick="">%</button></th>
+                    <th><button class="pink" onclick="putNumber('/')">/</button></th>
                 </tr>  
                 <tr>
-                    <th><button>7</button></th>
-                    <th><button>8</button></th>
-                    <th><button>9</button></th>
-                    <th><button class="pink">x</button></th>
+                    <th><button onclick="putNumber(7)">7</button></th>
+                    <th><button onclick="putNumber(8)">8</button></th>
+                    <th><button onclick="putNumber(9)">9</button></th>
+                    <th><button class="pink" onclick="putNumber('*')">x</button></th>
                 </tr>
                 <tr>
-                    <th><button>4</button></th>
-                    <th><button>5</button></th>
-                    <th><button>6</button></th>
-                    <th><button class="pink">-</button></th>
+                    <th><button onclick="putNumber(4)">4</button></th>
+                    <th><button onclick="putNumber(5)">5</button></th>
+                    <th><button onclick="putNumber(6)">6</button></th>
+                    <th><button class="pink" onclick="putNumber('-')">-</button></th>
                 </tr>
                 <tr>
-                    <th><button>1</button></th>
-                    <th><button>2</button></th>
-                    <th><button>3</button></th>
-                    <th><button class="pink">+</button></th>
+                    <th><button onclick="putNumber(1)">1</button></th>
+                    <th><button onclick="putNumber(2)">2</button></th>
+                    <th><button onclick="putNumber(3)">3</button></th>
+                    <th><button class="pink" onclick="putNumber('+')">+</button></th>
                 </tr>
                 <tr>
-                    <th><button>0</button></th>
-                    <th><button>.</button></th>
-                    <th colspan="2"><button id="eq">=</button></th>
+                    <th><button onclick="putNumber(0)">0</button></th>
+                    <th><button onclick="putNumber('.')">.</button></th>
+                    <th colspan="2"><button id="eq" onclick="answerEQ()">=</button></th>
                 </tr>
             </table>
         </div>
     </div>
+
+    <script src="app.js"></script>
+    
 </body>
 </html>

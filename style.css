@@ -15,7 +15,7 @@ body {
 
 
 .input > input[type=text]{
-    width: 320px;
+    width: 314px;
     height: 80px;
     background-color: white;
     color: #E84765;
@@ -23,6 +23,7 @@ body {
     font-weight: bolder;
     font-size: 45px;
     padding: 0px 30px;
+    text-align: right;
 }
 
 input[type=text]:focus,
@@ -33,7 +34,7 @@ input[type=text]:active {
 
 #formula {
     height: 30px;
-    width: 320px;
+    width: 314px;
     margin-top: 20px;
     padding: 0px 30px;
     color: #000000;
