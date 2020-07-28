@@ -2,7 +2,7 @@
 A simple, free modern calculator that can do basic calculation anytime. This web app is intended to help you understand simple parts of calculator in Vanilla ES5 Javascript.
 
 ### Screenshot
-![calculatorApp](/screenshot/calculator.png "Simple Calculator")
+![calculatorApp](screenshot/calculator.png "Simple Calculator")
 
 ## Features of this Calculator ✨
 * Add ➕ number
