@@ -18,31 +18,31 @@
                 <tr>
                     <th><button class="black" onclick="remOne()">C</button></th>
                     <th><button class="black" onclick="remAll()">CE</button></th>
-                    <th><button class="black" onclick="">%</button></th>
-                    <th><button class="pink" onclick="putNumber('/')">/</button></th>
+                    <th><button class="black" onclick="putOperator('%')">%</button></th>
+                    <th><button class="pink" onclick="putOperator('/')">/</button></th>
                 </tr>  
                 <tr>
                     <th><button onclick="putNumber(7)">7</button></th>
                     <th><button onclick="putNumber(8)">8</button></th>
                     <th><button onclick="putNumber(9)">9</button></th>
-                    <th><button class="pink" onclick="putNumber('*')">x</button></th>
+                    <th><button class="pink" onclick="putOperator('*')">x</button></th>
                 </tr>
                 <tr>
                     <th><button onclick="putNumber(4)">4</button></th>
                     <th><button onclick="putNumber(5)">5</button></th>
                     <th><button onclick="putNumber(6)">6</button></th>
-                    <th><button class="pink" onclick="putNumber('-')">-</button></th>
+                    <th><button class="pink" onclick="putOperator('-')">-</button></th>
                 </tr>
                 <tr>
                     <th><button onclick="putNumber(1)">1</button></th>
                     <th><button onclick="putNumber(2)">2</button></th>
                     <th><button onclick="putNumber(3)">3</button></th>
-                    <th><button class="pink" onclick="putNumber('+')">+</button></th>
+                    <th><button class="pink" onclick="putOperator('+')">+</button></th>
                 </tr>
                 <tr>
                     <th><button onclick="putNumber(0)">0</button></th>
                     <th><button onclick="putNumber('.')">.</button></th>
-                    <th colspan="2"><button id="eq" onclick="answerEQ()">=</button></th>
+                    <th colspan="2"><button id="eq" onclick="equals()">=</button></th>
                 </tr>
             </table>
         </div>
