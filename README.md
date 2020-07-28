@@ -1,10 +1,10 @@
-##Calculator 🧮
+## Calculator 🧮
 A simple, free modern calculator that can do basic calculation anytime. This web app is intended to help you understand simple parts of calculator in Vanilla ES5 Javascript.
 
-###Screenshot
+### Screenshot
 ![calculatorApp](/screenshot/calculator.png "Simple Calculator")
 
-##Features of this Calculator ✨
+## Features of this Calculator ✨
 * Add ➕ number
 * Subtract ➖ numbers
 * Multiply ✖️ numbers
@@ -12,7 +12,7 @@ A simple, free modern calculator that can do basic calculation anytime. This web
 * Can Get Percentage **%** of a number
 * Has simple UI
 
-##Get Started 🦄
+## Get Started 🦄
 * Clone the Repository
 ```
 https://github.com/JolouTheRookie/Calculator.git 
@@ -21,8 +21,8 @@ https://github.com/JolouTheRookie/Calculator.git
 * Improve/Change the code
 * Play around with the project
 
-##Contribution 🔥
+## Contribution 🔥
 If you want to contribute to this project and make it better than i made then your pull request is very welcome. If you find some problem to this project then just put it in the issue page. Thank you 😊
 
-###Thank you 😃
+### Thank you 😃
 If you like this project just click ⭐ and share it with others.
