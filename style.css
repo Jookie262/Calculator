@@ -84,3 +84,9 @@ button:hover {
     background-color: #EF2D4F;
     color: white;
 }
+
+.change-color-btn{
+    border-radius: 10px;
+    width: 80%;
+    margin: 5px;
+}
