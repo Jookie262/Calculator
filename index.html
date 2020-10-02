@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Project Fundamentals - Basic Calculator</title>
 </head>
+
 <body>
     <div class="calculator">
-        <img src="https://images.squarespace-cdn.com/content/v1/5654cf16e4b00b463710ff91/1448509700695-K742MSNI6DLI2EY5JF08/ke17ZwdGBToddI8pDm48kB2JJdSYG6qtFuh5yOgSivBZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpw0EQiLagPECDCjHyhXWG6-myvgGXeIWUf4NL6h1C1LKA1Zgs3q42RTRGNGvbZJ9fs/image-asset.png" alt="3 dots" width="30">
+        <img src="https://images.squarespace-cdn.com/content/v1/5654cf16e4b00b463710ff91/1448509700695-K742MSNI6DLI2EY5JF08/ke17ZwdGBToddI8pDm48kB2JJdSYG6qtFuh5yOgSivBZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpw0EQiLagPECDCjHyhXWG6-myvgGXeIWUf4NL6h1C1LKA1Zgs3q42RTRGNGvbZJ9fs/image-asset.png"
+            alt="3 dots" width="30">
         <div class="input">
             <input type="text" name="formula" id="formula" onfocus="this.value = this.value;" disabled>
             <input type="text" name="answer" id="ans" value="0" disabled>
@@ -20,7 +23,7 @@
                     <th><button class="black" onclick="remAll()">CE</button></th>
                     <th><button class="black" onclick="putOperator('%')">%</button></th>
                     <th><button class="pink" onclick="putOperator('/')">/</button></th>
-                </tr>  
+                </tr>
                 <tr>
                     <th><button onclick="putNumber(7)">7</button></th>
                     <th><button onclick="putNumber(8)">8</button></th>
@@ -46,9 +49,15 @@
                 </tr>
             </table>
         </div>
+
+        <div>
+            <button class="change-color-btn" onclick="changeColor()">Change Color</button>
+        </div>
+
     </div>
 
     <script src="app.js"></script>
-    
+
 </body>
+
 </html>

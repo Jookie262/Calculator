@@ -8,6 +8,8 @@ let answer = document.getElementById("ans");
 let clickOperator = 0; 
 let percent = false;
 let numPercent = 0;
+let colors = ['#EF2D4F', 'pink', 'blue', 'skyblue'];
+let currentColor = 0;
 
 function putNumber(num){
     if(!percent){
@@ -59,5 +61,16 @@ function equals(){
         ans.value = 'Syntax Error';
     }
 }
+
+function changeColor(){
+    if(currentColor < colors.length-1) {
+        currentColor = currentColor+1;
+        document.body.style.backgroundColor =  colors[currentColor];
+    } else {
+        currentColor = 0;
+        document.body.style.backgroundColor =  colors[0];
+    }
+}
+    
 
 //End
