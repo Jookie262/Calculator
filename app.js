@@ -41,11 +41,13 @@ document.onkeyup = function(e) {
     } else if (e.keyCode == 189 || e.keyCode == 109) {  // subtract
         putOperator('-');
     } else if (e.keyCode == 191 || e.keyCode == 111) {  // divide
-        putOperator('%');
+        putOperator('/');
     } else if (e.keyCode == 56 || e.keyCode == 106) {  // multiply
         putOperator('*');
-    }  else if (e.keyCode == 46) {  // add
+    } else if (e.keyCode == 46) {  // add
         document.getElementById("deleteAll").click();
+    } else if (e.key === '%') {  // modulo
+        putOperator('%');
     }
 };
 function putNumber(num){
