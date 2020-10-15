@@ -8,6 +8,8 @@ let answer = document.getElementById("ans");
 let clickOperator = 0; 
 let percent = false;
 let numPercent = 0;
+let colors = ['#EF2D4F', 'pink', 'blue', 'skyblue'];
+let currentColor = 0;
     // this chunk of code is contributed by tushartiwari7
 document.onkeyup = function(e) {
     if (e.which == 48 || e.keyCode == 96) {
@@ -100,5 +102,13 @@ function equals(){
         ans.value = 'Syntax Error';
     }
 }
-
+function changeColor(){
+    if(currentColor < colors.length-1) {
+        currentColor = currentColor+1;
+        document.body.style.backgroundColor =  colors[currentColor];
+    } else {
+        currentColor = 0;
+        document.body.style.backgroundColor =  colors[0];
+    }
+}
 //End
